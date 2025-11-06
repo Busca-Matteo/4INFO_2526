@@ -1,0 +1,6 @@
+let nome = prompt("inserisci l'Username: ")
+console.log(nome)
+nome == ("admin") && alert("nome approvato") || nome != ("admin") && alert("non so chi sei") || nome == null && alert("cancellato")
+nome == "admin" && (password = prompt("inserisci password:"))
+console.log(password)
+password == ("agnel1no") && alert("password giusta") || password != ("agnel1no") && alert("password sbagliata") || password == null && alert("cancellato")
